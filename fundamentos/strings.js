@@ -10,4 +10,4 @@ console.log(faculdade.substring(0, 1))// retorna a string entre o indice 0 e 1 (
 console.log('faculdade '.concat(faculdade).concat('!'))// concatena as strings ( pode ser feito usando o '+')
 console.log(faculdade.replace('A', 4))// substitue 'A' por 4
 
-console.log('Eric, Luiza, Fafa'.split(','))
+console.log('Eric, Luiza, Fafa'.split(','))// cria um array usando a ',' como separador
