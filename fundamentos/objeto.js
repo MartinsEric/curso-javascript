@@ -1,10 +1,12 @@
-const produto = {} //criaçao de um objeto vazio
+const produto = {} //criaçao de um objeto vazio.
 
-produto.nome = 'televisão' //os atributos podem ser criados dinamicamente, nao precisam obrigatoriamente serem definidos na criaçao do objeto
-produto['preco'] = 2599.99 // outra forma de adicionar um atributo
+produto.nome = 'televisão' // os atributos podem ser criados dinamicamente, nao precisam obrigatoriamente serem definidos na criaçao do objeto.
+produto['preco'] = 2599.99 // outra forma de adicionar um atributo.
 
 console.log(produto)
 
+
+// outra forma de declarar um objeto.
 const cidade = {
     nome: 'Rio de Janeiro',
     estado: 'Rio de Janeiro',
