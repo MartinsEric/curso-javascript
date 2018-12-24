@@ -1,7 +1,7 @@
 function Pessoa(){
     this.idade = 0
 
-    self = this // fazendo isso, o self sempre vai representar o this da funcao.
+    const self = this // fazendo isso, o self sempre vai representar o this da funcao.
 
     setInterval(function(){
         self.idade++
